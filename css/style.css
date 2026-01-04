@@ -3,7 +3,9 @@
     --primary: #1E60AA;
     --secondary: #FF4917;
     --light: #EDF1FC;
-    --dark: #17224D;
+    --dark: #051142;
+    --dark-txt: #041144;
+
 }
 
 .fw-medium {
@@ -594,4 +596,11 @@
 
 .footer .copyright a {
     color: var(--light);
+}
+
+@media(max-width:768px){
+  .hero .btn {
+    font-size: 1.2rem;
+    padding: 15px 25px;
+  }
 }
