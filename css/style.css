@@ -604,3 +604,20 @@
     padding: 15px 25px;
   }
 }
+
+
+.team-item .position-relative img {
+    width: 100%;      /* full width of container */
+    height: 250px;    /* fixed height */
+    object-fit: cover; /* crop to fit without distortion */
+}
+
+
+.service-carousel .owl-stage {
+    display: flex;
+}
+
+.service-carousel .owl-item {
+    flex: 0 0 auto;   /* don't shrink */
+    width: 33.333%;   /* 3 slides per row */
+}
